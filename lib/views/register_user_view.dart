@@ -19,7 +19,7 @@ class _RegisterUserViewState extends State<RegisterUserView> {
   TextEditingController password = TextEditingController();
   TextEditingController birthday = TextEditingController();
   TextEditingController Alamat = TextEditingController();
-  List roleChoice = ["admin", "user"];
+  List roleChoice = ["admin", "kasir"];
   String? role;
 
   @override

@@ -8,9 +8,10 @@ import 'package:app_movie/views/register_user_view.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/',
+    initialRoute: '/register',
     routes: {
       '/': (context) => LoginView(),
+      '/register':(context) => RegisterUserView(),
       '/dashboard': (context) => DashboardView(),
       '/movie': (context) => MovieView(),
       '/pesan': (context) => PesanView()
